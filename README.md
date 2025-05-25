@@ -6,7 +6,7 @@ You define an element you want to extend and the prototype you want to add on to
 
 Optionally you can also define a setup, which runs immediately after the element is created and its prototype is assigned, as a sort of constructor.
 
-The return value is a factory function that creates instances of your custom element.
+The return value of the customEl function is a factory function that creates instances of your custom element.
 
 It's fully typed in TS so that the returned type will have your extra methods, etc. The value of "this" while defining a method also refers to the element.
 
