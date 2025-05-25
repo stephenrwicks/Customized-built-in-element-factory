@@ -1,6 +1,6 @@
 This is an alternative to [Customized Built-In Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/is).
 
-This is a powerful feature but Apple/Safari has no plans to ever support this. This is a workaround that applies the extra prototype manually, which works in Safari.
+Customized built-ins using the "is" attribute is a powerful feature but Apple/Safari has no plans to ever support this. This is a workaround that applies the extra prototype manually, which works in Safari.
 
 You define an element you want to extend and the prototype you want to add on top of the native prototype.
 
